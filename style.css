@@ -1,0 +1,19 @@
+#cards {
+    float:right;
+    margin: auto;
+    padding-block: 1em;
+}
+
+.h3 {
+    float:right
+}
+
+#summary {
+    padding-block: 1em;
+    margin: auto;
+    float: left;
+}
+
+#variables {
+    padding-left: inherit;
+}
