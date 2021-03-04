@@ -16,6 +16,7 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+        </div>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
                     <li class="nav-item dropdown">
@@ -23,10 +24,10 @@
                         Plots
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="temp.html">City Latitude vs Max Temperature</a></li>
-                            <li><a class="dropdown-item" href="humidity.html">City Latitude vs Humidity</a></li>
-                            <li><a class="dropdown-item" href="cloudiness.html">City Latitude vs Cloudiness</a></li>
-                            <li><a class="dropdown-item" href="wind.html">City Latitude vs Wind Speed</a></li>
+                            <li><a class="dropdown-item" href="temp.html">Max Temperature</a></li>
+                            <li><a class="dropdown-item" href="humidity.html">Humidity</a></li>
+                            <li><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
+                            <li><a class="dropdown-item" href="wind.html">Wind Speed</a></li>
                         </ul>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="comparison.html">Comparison</a>
@@ -43,22 +44,26 @@
     <div id="summary" class="row">
         <div class="col-md-8">
             <h2>Summary: Latitude vs X</h2>
+            <hr class="solid">
             <img id="graph_img" src="Resources/assets/images/Fig1.png" alt="graph">
-            <p>
+            <p id="p1">
                 The purpose of this project was to visualize the weather of 500 or more cities 
                 across the world and compare how the latitude of these cities affected different 
-                weather variables. These variables included:
+                weather variables. These variables included temperature, humidity, cloudiness and
+                wind speed.
             </p>
-            <div id="variables">
-                <li>Temperature</li>
-                <li>Humidity</li>
-                <li>Cloudiness</li>
-                <li>Wind Speed</li>
-            </div>
+            <p id="p1">
+                We used the OpenWeatherMap API to assemble the dataset. After the data was assembled, 
+                we used Matplot lib to plot the comparisons of the weather variables versus latitude. 
+                This site provides the source data as well as the visualizations created as part of 
+                the analysis. On the individual plot pages you can find explanations of the data 
+                as well as descriptions of observed trends and correlations.  
+            </p>
         </div>
 
         <div class="col-md-4">
             <div><h3>Visualizations</h3>
+                <hr class="solid">
                 <div class="card-columns">
                     <div class="card">
                         <a href="temp.html"><img class="card-img-top" src="Resources/assets/images/Fig1.png" alt="latitude-temp"></a>

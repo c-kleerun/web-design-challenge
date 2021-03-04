@@ -1,19 +1,47 @@
+.solid {
+    color: gray;
+    
+}
+
 #cards {
     float:right;
+    border: 15px whitesmoke;
+    padding: 15px;
     margin: auto;
-    padding-block: 1em;
-}
+} 
+
 
 .h3 {
     float:right
 }
 
-#summary {
-    padding-block: 1em;
-    margin: auto;
+#figure,
+#summary,
+#graph_img {
     float: left;
+    border: 15px whitesmoke;
+    padding: 15px;
+    margin: auto;
+    font-size: large;
 }
 
-#variables {
-    padding-left: inherit;
+#figure {
+    position: relative;
+}
+
+
+#graph_img, 
+#temp_img {
+    width: 400px;
+    height: auto;
+    margin-right: 20px;
+}
+
+#navbarSupportedContent {
+    align-items: left;
+}
+
+.dropdown-menu,
+.nav-item a:hover {
+    background-color: lightgray;
 }
