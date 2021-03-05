@@ -30,8 +30,7 @@
 }
 
 
-#graph_img, 
-#temp_img {
+#graph_img {
     width: 400px;
     height: auto;
     margin-right: 20px;
@@ -49,4 +48,17 @@
 .dropdown-menu,
 .nav-item {
     margin-right: 10px;
+}
+
+#comparison_grid {
+    margin: auto;
+    margin-top: 5%;
+}
+
+#top {
+    padding-bottom: 10px;
+}
+
+#top2 {
+    padding-bottom: 50px;
 }
