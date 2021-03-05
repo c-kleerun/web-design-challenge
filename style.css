@@ -45,3 +45,8 @@
 .nav-item a:hover {
     background-color: lightgray;
 }
+
+.dropdown-menu,
+.nav-item {
+    margin-right: 10px;
+}
